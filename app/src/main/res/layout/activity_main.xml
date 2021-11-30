@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityA">
+
+    <Button
+        android:id="@+id/btnLaunchA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Launch A" />
+
+
+    <Button
+        android:id="@+id/btnLaunchB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Launch B" />
+
+
+    <Button
+        android:id="@+id/btnLaunchC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Launch C" />
+
+
+    <Button
+        android:id="@+id/btnLaunchD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Launch D" />
+
+    <Button
+        android:id="@+id/btnLaunchE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Launch E" />
+
+
+    <Button
+        android:id="@+id/btnLaunchF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Launch F" />
+
+
+    <TextView
+        android:id="@+id/tvNoOfTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/tvNoOfActivities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvCurrentActivityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
